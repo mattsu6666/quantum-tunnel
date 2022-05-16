@@ -10,6 +10,7 @@ use celo_types::{client::LightClientState, consensus::LightConsensusState};
 use serde::{Deserialize, Serialize};
 use prost_types::Any;
 use std::error::Error;
+use log::*;
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
 pub struct CeloWrappedHeader {
@@ -33,6 +34,7 @@ impl WasmHeader for CeloWrappedHeader {
         }
 
         let code_id = hex::decode(&cfg.wasm_id)?;
+        info!("code_id: {}", &cfg.wasm_id);
         let client_state = ClientState {
             code_id: code_id.clone(),
             data: rlp::encode(&self.initial_client_state).as_ref().to_vec(),
