@@ -702,7 +702,7 @@ checksum = "22a9137b95ea06864e018375b72adfb7db6e6f68cfc8df5a04d00288050485ee"
 [[package]]
 name = "celo-types"
 version = "0.1.0"
-source = "git+https://github.com/ChorusOne/celo-light-client.git?branch=giulio/improvs#ac812c7ad77533e22e4761a59e1173e6f398299b"
+source = "git+https://github.com/datachainlab/celo-light-client.git?branch=mattsu6666/improvs_013#10e52e7e58bb9e148777fa9410f836d4a8d1fe5c"
 dependencies = [
  "byte-slice-cast 1.2.0",
  "ethereum-types",
