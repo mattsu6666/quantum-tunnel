@@ -44,7 +44,7 @@ k256 = {version = "0.10"}
 bip39 = {version = "1.0"}
 ethereum-types = {version = "0.11", default-features = false, features = ["rlp"]}
 rlp = {version = "0.5"}
-ibc-proto = {git = "https://github.com/ChorusOne/ibc-rs", branch = "giulio/proto_wasm_client"}
+ibc-proto = {git = "https://github.com/mattsu6666/ibc-rs", branch = "mattsu6666/proto_wasm_client_013"}
 
 # Cosmos deps
 tendermint-rpc = { version = "0.23", features = ["websocket-client"], default-features = false }

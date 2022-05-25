@@ -1901,7 +1901,7 @@ dependencies = [
 [[package]]
 name = "ibc-proto"
 version = "0.14.0"
-source = "git+https://github.com/ChorusOne/ibc-rs?branch=giulio/proto_wasm_client#94bf46ce928475d31f10f09448645003308e7cd8"
+source = "git+https://github.com/mattsu6666/ibc-rs?branch=mattsu6666/proto_wasm_client_013#2d9c3c7d06327f4e3177cb59cff10b7f6895486b"
 dependencies = [
  "base64 0.13.0",
  "bytes 1.1.0",
@@ -4007,11 +4007,10 @@ dependencies = [
 
 [[package]]
 name = "schemars"
-version = "0.8.8"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c6b5a3c80cea1ab61f4260238409510e814e38b4b563c06044edf91e7dc070e3"
+checksum = "be77ed66abed6954aabf6a3e31a84706bedbf93750d267e92ef4a6d90bbd6a61"
 dependencies = [
- "dyn-clone",
  "schemars_derive",
  "serde",
  "serde_json",
@@ -4019,9 +4018,9 @@ dependencies = [
 
 [[package]]
 name = "schemars_derive"
-version = "0.8.8"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41ae4dce13e8614c46ac3c38ef1c0d668b101df6ac39817aebdaa26642ddae9b"
+checksum = "11af7a475c9ee266cfaa9e303a47c830ebe072bf3101ab907a7b7b9d816fa01d"
 dependencies = [
  "proc-macro2",
  "quote",
